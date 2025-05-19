@@ -1,0 +1,24 @@
+.containerCard{
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
+}
+
+.actionCards button:hover{
+    cursor: pointer;
+
+}
+.dataCard{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

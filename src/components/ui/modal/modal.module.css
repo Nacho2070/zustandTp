@@ -1,0 +1,55 @@
+.containerModalPrincipal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: brightness(90%) blur(2px);
+}
+
+.conntenPoUp{
+    background-color: #fff;
+    box-shadow: 5px 2px 10px grey;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+.conntenPoUp h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.formContent input,textarea{
+    width: 100%;
+    padding: 0.3rem;
+    resize: none;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 5px;
+    resize: none;
+    margin: 0.4rem 0;
+    background-color: #fafafa;
+}
+
+.buttonCard{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;    
+}
